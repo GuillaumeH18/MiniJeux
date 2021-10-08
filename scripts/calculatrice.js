@@ -1,10 +1,25 @@
+var  nb1 ="";
+var  nb2 ="";
+var operateur =""
 
-let tournerImage = () => {
-    let imgTemp2 = document.querySelector("#img2").src
-    document.querySelector("#img2").src = document.querySelector("#img1").src
-    let imgTemp3 = document.querySelector("#img3").src
-    document.querySelector("#img3").src = imgTemp2
-    let imgTemp4 = document.querySelector("#img4").src
-    document.querySelector("#img4").src = imgTemp3
-    document.querySelector("#img1").src = imgTemp4
+let afficheNombre = ( nombre) => {
+    
+    if (operateur ="")
+    {
+        nb1 += nombre
+    }
+    else
+    {
+        nb1 += nombre
+    }
+    document.querySelector("#affiche").value = nb1 + " "+ operateur +" "+ nb2
+}
+
+let AddOperateur = ( op) => {
+    operateur = op
+}
+
+let calcul = ( ) => {
+    let resultat = Equal( nb1 + " "+ operateur +" "+ nb2)
+    document.querySelector("#affiche").value = nb1 + " "+ operateur +" "+ nb2 + " = "+ resultat
 }

@@ -52,6 +52,7 @@ li a:hover {
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
+    justify-content: space-around;
 }    
   
 .chiffre{
@@ -68,6 +69,8 @@ li a:hover {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    border: 1px solid black;
+    
 }                       
 
 .chiffre:hover {
@@ -78,7 +81,7 @@ li a:hover {
 .operateur{
     justify-items: center; 
     justify-content: center;
-    width: 15%;
+    width: 16.75%;
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
@@ -89,6 +92,7 @@ li a:hover {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    border: 1px solid black;
 }                       
 
 .operateur:hover {
@@ -98,7 +102,7 @@ li a:hover {
 .egal{
     justify-items: center; 
     justify-content: center;
-    width: 100%;
+    width: 91.75%;
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
@@ -109,9 +113,27 @@ li a:hover {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
+    border: 1px solid black;
 }                       
 
 .egal:hover {
     background-color: #111;
 }
-  
+
+.nombre{
+    justify-items: center; 
+    justify-content: center;
+    width:  91.75%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: lightslategray;
+    display: flex;
+    color: black;
+    text-align: center;
+    padding: 20px 50px;
+    margin: 15px 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border: 1px solid black;
+} 

@@ -17,21 +17,22 @@
     </section>
     <div class="jeu">
         <div class="conteneur">
-            <div class="chiffre" id="chiffre1">1</div>
-            <div class="chiffre" id="chiffre2">2</div>
-            <div class="chiffre" id="chiffre3">3</div>
-            <div class="chiffre" id="chiffre4">4</div>
-            <div class="chiffre" id="chiffre5">5</div>
-            <div class="chiffre" id="chiffre6">6</div>
-            <div class="chiffre" id="chiffre7">7</div>
-            <div class="chiffre" id="chiffre8">8</div>
-            <div class="chiffre" id="chiffre9">9</div>
-            <div class="egal" id="chiffre0">0</div>
-            <div class="operateur" id ="+">+</div>
-            <div class="operateur" id ="/">-</div>
-            <div class="operateur" id ="x">X</div>
-            <div class="operateur" id ="/">/</div>
-            <div class="egal" id ="=">=</div>
+            <div class="chiffre" id="chiffre1" onclick="afficheNombre('1')">1</div>
+            <div class="chiffre" id="chiffre2" onclick="afficheNombre('2')">2</div>
+            <div class="chiffre" id="chiffre3" onclick="afficheNombre('3')">3</div>
+            <div class="chiffre" id="chiffre4" onclick="afficheNombre('4')">4</div>
+            <div class="chiffre" id="chiffre5" onclick="afficheNombre('5')">5</div>
+            <div class="chiffre" id="chiffre6" onclick="afficheNombre('6')">6</div>
+            <div class="chiffre" id="chiffre7" onclick="afficheNombre('7')">7</div>
+            <div class="chiffre" id="chiffre8" onclick="afficheNombre('8')">8</div>
+            <div class="chiffre" id="chiffre9" onclick="afficheNombre('9')">9</div>
+            <div class="egal" id="chiffre0" onclick="afficheNombre('0')">0</div>
+            <div class="operateur" id ="+" onclick="addOperateur('+')">+</div>
+            <div class="operateur" id ="/"onclick="addOperateur('-')">-</div>
+            <div class="operateur" id ="x"onclick="addOperateur('*')">X</div>
+            <div class="operateur" id ="/"onclick="addOperateur('/')">/</div>
+            <div class="egal" id ="="onclick="calcul()">=</div>
+            <div class="nombre" id ="affiche"></div>
         </div>
     </div>
 </body>
